@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002 NumericOperations", "Nu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004 Musical_Scale", "Musical_Scale\004 Musical_Scale.csproj", "{512ADA04-B7E0-4C24-9851-A710884A24B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006 LogicalOperators Part 1", "LogicalOperators\006 LogicalOperators Part 1.csproj", "{AFC3A096-D4D7-415E-A048-DFBC6DE8D11D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{512ADA04-B7E0-4C24-9851-A710884A24B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{512ADA04-B7E0-4C24-9851-A710884A24B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{512ADA04-B7E0-4C24-9851-A710884A24B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFC3A096-D4D7-415E-A048-DFBC6DE8D11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC3A096-D4D7-415E-A048-DFBC6DE8D11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC3A096-D4D7-415E-A048-DFBC6DE8D11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC3A096-D4D7-415E-A048-DFBC6DE8D11D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
