@@ -33,7 +33,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "004 Musical_Scale", "004 Mu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "005 ArithmeticOperators", "005 ArithmeticOperators", "{119EBB64-EB3F-4CAC-BE01-D27D0BFFC717}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007 BitOperations Part2", "007 BitOperations Part2\007 BitOperations Part2.csproj", "{83C52F2C-5CEC-4A55-B164-5E26D4BC2377}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007 BitOperations Part2", "007 BitOperations Part2\007 BitOperations Part2.csproj", "{83C52F2C-5CEC-4A55-B164-5E26D4BC2377}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008 Variable Creation Rules", "008 Variable Creation Rules", "{5AC7CEFD-B765-4B46-84D3-C27525F835E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variable Creation Rules", "Variable Creation Rules\Variable Creation Rules.csproj", "{1D944C0C-DA51-429B-95D2-5B334F262354}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,6 +81,10 @@ Global
 		{83C52F2C-5CEC-4A55-B164-5E26D4BC2377}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83C52F2C-5CEC-4A55-B164-5E26D4BC2377}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83C52F2C-5CEC-4A55-B164-5E26D4BC2377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D944C0C-DA51-429B-95D2-5B334F262354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D944C0C-DA51-429B-95D2-5B334F262354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D944C0C-DA51-429B-95D2-5B334F262354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D944C0C-DA51-429B-95D2-5B334F262354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -91,6 +99,7 @@ Global
 		{99D2CDB3-4251-4113-985D-A03895E75CCB} = {47E253E1-FAE3-4D40-92FA-9D780B0FE9BF}
 		{987B789A-54D3-475E-9C6D-9B6DD5C0C7D9} = {0AF1B62C-11C4-462B-854C-415AD766A65C}
 		{83C52F2C-5CEC-4A55-B164-5E26D4BC2377} = {0AF1B62C-11C4-462B-854C-415AD766A65C}
+		{1D944C0C-DA51-429B-95D2-5B334F262354} = {5AC7CEFD-B765-4B46-84D3-C27525F835E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8216C72B-B412-4BBA-9633-653E9A2C6B0A}
