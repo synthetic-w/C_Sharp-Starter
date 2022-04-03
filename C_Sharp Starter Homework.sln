@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "003 Variables", "Variables\003 Variables.csproj", "{A10E25B2-4D21-4AF6-AED3-2BC0F52D5C06}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "005 ArithmeticOperators", "ArithmeticOperators\005 ArithmeticOperators.csproj", "{5D62DCE8-C558-4602-B502-88BC53C32FA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "012 ArithmeticOperators", "ArithmeticOperators\012 ArithmeticOperators.csproj", "{5D62DCE8-C558-4602-B502-88BC53C32FA7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "001 Hello_CJ", "Hello_CJ\001 Hello_CJ.csproj", "{34AC4132-D267-401B-A3DC-68A2D4C79AC6}"
 EndProject
@@ -13,15 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "002 NumericOperations", "Nu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "004 Musical_Scale", "Musical_Scale\004 Musical_Scale.csproj", "{512ADA04-B7E0-4C24-9851-A710884A24B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006 LogicalOperators Part 1", "LogicalOperators\006 LogicalOperators Part 1.csproj", "{AFC3A096-D4D7-415E-A048-DFBC6DE8D11D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016 LogicalOperators Part 1", "LogicalOperators\016 LogicalOperators Part 1.csproj", "{AFC3A096-D4D7-415E-A048-DFBC6DE8D11D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "006 LogicalOperators Part 2 Award", "006 LogicalOperators Part 2 Award\006 LogicalOperators Part 2 Award.csproj", "{99D2CDB3-4251-4113-985D-A03895E75CCB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016 LogicalOperators Part 2 Award", "006 LogicalOperators Part 2 Award\016 LogicalOperators Part 2 Award.csproj", "{99D2CDB3-4251-4113-985D-A03895E75CCB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007 BitOperations Part1", "007BitOperations\007 BitOperations Part1.csproj", "{987B789A-54D3-475E-9C6D-9B6DD5C0C7D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "017 BitOperations Part1", "007BitOperations\017 BitOperations Part1.csproj", "{987B789A-54D3-475E-9C6D-9B6DD5C0C7D9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "006 LogicalOperators", "006 LogicalOperators", "{47E253E1-FAE3-4D40-92FA-9D780B0FE9BF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "016 LogicalOperators", "016 LogicalOperators", "{47E253E1-FAE3-4D40-92FA-9D780B0FE9BF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "007 BitOperators", "007 BitOperators", "{0AF1B62C-11C4-462B-854C-415AD766A65C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "017 BitOperators", "017 BitOperators", "{0AF1B62C-11C4-462B-854C-415AD766A65C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001 Hello_CJ", "001 Hello_CJ", "{A349615E-D70F-4070-B705-DD9959A9EC95}"
 EndProject
@@ -31,15 +31,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "003 Variables", "003 Variab
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "004 Musical_Scale", "004 Musical_Scale", "{46B83F4D-C6F3-450A-B7D1-0B78FC22B7D3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "005 ArithmeticOperators", "005 ArithmeticOperators", "{119EBB64-EB3F-4CAC-BE01-D27D0BFFC717}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "012 ArithmeticOperators", "012 ArithmeticOperators", "{119EBB64-EB3F-4CAC-BE01-D27D0BFFC717}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007 BitOperations Part2", "007 BitOperations Part2\007 BitOperations Part2.csproj", "{83C52F2C-5CEC-4A55-B164-5E26D4BC2377}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "017 BitOperations Part2", "007 BitOperations Part2\017 BitOperations Part2.csproj", "{83C52F2C-5CEC-4A55-B164-5E26D4BC2377}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008 Variable Creation Rules", "008 Variable Creation Rules", "{5AC7CEFD-B765-4B46-84D3-C27525F835E0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "018 Variable Creation Rules", "018 Variable Creation Rules", "{5AC7CEFD-B765-4B46-84D3-C27525F835E0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable Creation Rules", "Variable Creation Rules\Variable Creation Rules.csproj", "{1D944C0C-DA51-429B-95D2-5B334F262354}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "009 Scope", "009 Scope", "{AE31C59B-53D3-4508-B463-CCD2ABA9A6BC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "019 Scope", "019 Scope", "{AE31C59B-53D3-4508-B463-CCD2ABA9A6BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scope", "Scope\Scope.csproj", "{DE078977-5662-47D2-9A27-F33FBA26E280}"
 EndProject
