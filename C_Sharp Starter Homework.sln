@@ -37,7 +37,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "007 BitOperations Part2", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008 Variable Creation Rules", "008 Variable Creation Rules", "{5AC7CEFD-B765-4B46-84D3-C27525F835E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variable Creation Rules", "Variable Creation Rules\Variable Creation Rules.csproj", "{1D944C0C-DA51-429B-95D2-5B334F262354}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable Creation Rules", "Variable Creation Rules\Variable Creation Rules.csproj", "{1D944C0C-DA51-429B-95D2-5B334F262354}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "009 Scope", "009 Scope", "{AE31C59B-53D3-4508-B463-CCD2ABA9A6BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scope", "Scope\Scope.csproj", "{DE078977-5662-47D2-9A27-F33FBA26E280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "020 WindowVulnerability", "020 WindowVulnerability", "{95C50A7C-3235-4945-A6B4-B62DB55FD338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowVulnerability", "WindowVulnerability\WindowVulnerability.csproj", "{8456A0E5-9E2D-4FD6-A3A4-E3DE958EC1D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +93,14 @@ Global
 		{1D944C0C-DA51-429B-95D2-5B334F262354}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D944C0C-DA51-429B-95D2-5B334F262354}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D944C0C-DA51-429B-95D2-5B334F262354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE078977-5662-47D2-9A27-F33FBA26E280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE078977-5662-47D2-9A27-F33FBA26E280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE078977-5662-47D2-9A27-F33FBA26E280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE078977-5662-47D2-9A27-F33FBA26E280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8456A0E5-9E2D-4FD6-A3A4-E3DE958EC1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8456A0E5-9E2D-4FD6-A3A4-E3DE958EC1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8456A0E5-9E2D-4FD6-A3A4-E3DE958EC1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8456A0E5-9E2D-4FD6-A3A4-E3DE958EC1D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +116,8 @@ Global
 		{987B789A-54D3-475E-9C6D-9B6DD5C0C7D9} = {0AF1B62C-11C4-462B-854C-415AD766A65C}
 		{83C52F2C-5CEC-4A55-B164-5E26D4BC2377} = {0AF1B62C-11C4-462B-854C-415AD766A65C}
 		{1D944C0C-DA51-429B-95D2-5B334F262354} = {5AC7CEFD-B765-4B46-84D3-C27525F835E0}
+		{DE078977-5662-47D2-9A27-F33FBA26E280} = {AE31C59B-53D3-4508-B463-CCD2ABA9A6BC}
+		{8456A0E5-9E2D-4FD6-A3A4-E3DE958EC1D8} = {95C50A7C-3235-4945-A6B4-B62DB55FD338}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8216C72B-B412-4BBA-9633-653E9A2C6B0A}
