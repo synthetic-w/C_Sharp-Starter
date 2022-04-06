@@ -14,7 +14,7 @@ namespace _021_Constant
             bool isConstBigger;
             {
                 double inputValue = Convert.ToDouble(Console.ReadLine());
-                isConstBigger = PI == inputValue;
+                isConstBigger = PI > inputValue;
             }
 
             // 2. Сравнение значения константы MY_CONST с результирующим значением блока 1
