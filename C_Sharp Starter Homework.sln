@@ -47,15 +47,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019 Scope", "019 Scope\019 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020 WindowVulnerability", "020 WindowVulnerability\020 WindowVulnerability.csproj", "{8456A0E5-9E2D-4FD6-A3A4-E3DE958EC1D8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "022 Constant", "022 Constant", "{E882F97C-2768-43AD-8AA6-A59BB09AB70C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "023 Constant", "023 Constant", "{E882F97C-2768-43AD-8AA6-A59BB09AB70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "022 Constant", "021 Constant\022 Constant.csproj", "{85799BD0-8BFD-48EB-8667-7F59643AF14A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "024 Conditionals (if, else)", "024 Conditionals (if, else)", "{655C9C1E-2D86-4383-93DB-F54EE96B5A58}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "023 Conditionals (if, else)", "023 Conditionals (if, else)", "{655C9C1E-2D86-4383-93DB-F54EE96B5A58}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023 Constant", "023 Constant\023 Constant.csproj", "{85799BD0-8BFD-48EB-8667-7F59643AF14A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023 Conditionals (if, else) task 1", "022 Conditionals (if, else)\023 Conditionals (if, else) task 1.csproj", "{426B6FC8-654E-43B9-9A33-C4E1754990D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "024 Conditionals (if, else) task 1", "024 Conditionals (if, else)\024 Conditionals (if, else) task 1.csproj", "{426B6FC8-654E-43B9-9A33-C4E1754990D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023 Conditions (if, else) task 2", "022 Conditions (if, else) task 2\023 Conditions (if, else) task 2.csproj", "{987E2E12-A50E-45CA-B9B0-C9627CF52F64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "024 Conditions (if, else) task 2", "024 Conditions (if, else) task 2\024 Conditions (if, else) task 2.csproj", "{987E2E12-A50E-45CA-B9B0-C9627CF52F64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "026 MultipleConditions", "026 MultipleConditions", "{E41A6CE3-8484-441F-BCEE-3B3D5E2F7C7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026 MultipleConditions task 1", "026 MultipleConditions\026 MultipleConditions task 1.csproj", "{2278F724-82F6-4455-AF56-E8DB254BCD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026 MultipleConditions task 2", "026 MultipleConditions task 2\026 MultipleConditions task 2.csproj", "{0873B143-092D-4BC7-915C-665CD6C22CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026 MultipleConditions additional task", "026 MultipleConditions additional task\026 MultipleConditions additional task.csproj", "{AF98C922-B1DD-4060-9E4D-8987ACA2DACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +131,18 @@ Global
 		{987E2E12-A50E-45CA-B9B0-C9627CF52F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{987E2E12-A50E-45CA-B9B0-C9627CF52F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{987E2E12-A50E-45CA-B9B0-C9627CF52F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2278F724-82F6-4455-AF56-E8DB254BCD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2278F724-82F6-4455-AF56-E8DB254BCD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2278F724-82F6-4455-AF56-E8DB254BCD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2278F724-82F6-4455-AF56-E8DB254BCD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0873B143-092D-4BC7-915C-665CD6C22CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0873B143-092D-4BC7-915C-665CD6C22CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0873B143-092D-4BC7-915C-665CD6C22CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0873B143-092D-4BC7-915C-665CD6C22CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF98C922-B1DD-4060-9E4D-8987ACA2DACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF98C922-B1DD-4060-9E4D-8987ACA2DACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF98C922-B1DD-4060-9E4D-8987ACA2DACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF98C922-B1DD-4060-9E4D-8987ACA2DACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +163,9 @@ Global
 		{85799BD0-8BFD-48EB-8667-7F59643AF14A} = {E882F97C-2768-43AD-8AA6-A59BB09AB70C}
 		{426B6FC8-654E-43B9-9A33-C4E1754990D7} = {655C9C1E-2D86-4383-93DB-F54EE96B5A58}
 		{987E2E12-A50E-45CA-B9B0-C9627CF52F64} = {655C9C1E-2D86-4383-93DB-F54EE96B5A58}
+		{2278F724-82F6-4455-AF56-E8DB254BCD64} = {E41A6CE3-8484-441F-BCEE-3B3D5E2F7C7F}
+		{0873B143-092D-4BC7-915C-665CD6C22CFA} = {E41A6CE3-8484-441F-BCEE-3B3D5E2F7C7F}
+		{AF98C922-B1DD-4060-9E4D-8987ACA2DACF} = {E41A6CE3-8484-441F-BCEE-3B3D5E2F7C7F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8216C72B-B412-4BBA-9633-653E9A2C6B0A}
