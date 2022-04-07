@@ -17,6 +17,7 @@ namespace _022_Conditions__if__else__task_2
             Console.WriteLine("Сторона C:");
             uint sideC = (uint)Convert.ToInt32(Console.ReadLine());
 
+            // Условие существования треугольника
             bool triangleExsistenceCondition = ((sideA + sideB) > sideC) && ((sideA + sideC) > sideB) && ((sideB + sideC) > sideA);
 
             if (triangleExsistenceCondition) {
@@ -37,17 +38,16 @@ namespace _022_Conditions__if__else__task_2
                         biggestSideSquared = sideC * sideC;
                         remainSidesSquaredSum = (sideA * sideA) + (sideB * sideB);
                     }
-                    else Console.WriteLine("Чёт хуйню какую-то загадал))))))");
                 }
-                // TODO: исправить баг, когда три одинаковых стороны дают в результате прямоугольный треугольник
-                if (biggestSideSquared == remainSidesSquaredSum) {
+
+                if ((biggestSideSquared != 0) && (remainSidesSquaredSum != 0) && (biggestSideSquared == remainSidesSquaredSum)) {
                     Console.WriteLine("И является прямоугольным - один угол равен 90 градусам");
                 }
-                else if (biggestSideSquared < remainSidesSquaredSum) {
-                    Console.WriteLine("И является остроугольным - все углы меньше 90 градусов");
+                else if ((sideA == sideB) && (sideA == sideC)) {
+                    Console.WriteLine(("И является равносторонним, т.к. все его стороны равны"));
                 }
-                else {
-                    Console.WriteLine("И является тупоугольным - один угол больше 90 градусов");
+                else if ((sideA == sideB) || (sideA == sideC) || (sideB == sideC)) {
+                    Console.WriteLine("И является равнобедренным, т.к. две его стороны равны");
                 }
             }
             else {
