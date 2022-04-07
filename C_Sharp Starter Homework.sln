@@ -47,15 +47,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019 Scope", "019 Scope\019 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020 WindowVulnerability", "020 WindowVulnerability\020 WindowVulnerability.csproj", "{8456A0E5-9E2D-4FD6-A3A4-E3DE958EC1D8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "021 Constant", "021 Constant", "{E882F97C-2768-43AD-8AA6-A59BB09AB70C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "022 Constant", "022 Constant", "{E882F97C-2768-43AD-8AA6-A59BB09AB70C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021 Constant", "021 Constant\021 Constant.csproj", "{85799BD0-8BFD-48EB-8667-7F59643AF14A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "022 Constant", "021 Constant\022 Constant.csproj", "{85799BD0-8BFD-48EB-8667-7F59643AF14A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "022 Conditionals (if, else)", "022 Conditionals (if, else)", "{655C9C1E-2D86-4383-93DB-F54EE96B5A58}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "023 Conditionals (if, else)", "023 Conditionals (if, else)", "{655C9C1E-2D86-4383-93DB-F54EE96B5A58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "022 Conditionals (if, else) task 1", "022 Conditionals (if, else)\022 Conditionals (if, else) task 1.csproj", "{426B6FC8-654E-43B9-9A33-C4E1754990D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023 Conditionals (if, else) task 1", "022 Conditionals (if, else)\023 Conditionals (if, else) task 1.csproj", "{426B6FC8-654E-43B9-9A33-C4E1754990D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "022 Conditions (if, else) task 2", "022 Conditions (if, else) task 2\022 Conditions (if, else) task 2.csproj", "{987E2E12-A50E-45CA-B9B0-C9627CF52F64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023 Conditions (if, else) task 2", "022 Conditions (if, else) task 2\023 Conditions (if, else) task 2.csproj", "{987E2E12-A50E-45CA-B9B0-C9627CF52F64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
