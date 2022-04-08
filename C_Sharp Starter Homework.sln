@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "016 LogicalOperators", "016 LogicalOperators", "{47E253E1-FAE3-4D40-92FA-9D780B0FE9BF}"
 EndProject
@@ -73,7 +73,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_1", "000 METANIT\Condi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_2", "000 METANIT\Conditionals\Task_2\Task_2.csproj", "{140EA968-39C7-49E2-9F7A-78701665E7CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_4", "000 METANIT\Conditionals\Task_4\Task_4.csproj", "{C35A5E25-A3D5-45DE-ADB3-B71273EC94C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_4-5", "000 METANIT\Conditionals\Task_4-5\Task_4-5.csproj", "{C35A5E25-A3D5-45DE-ADB3-B71273EC94C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task_6", "000 METANIT\Conditionals\Task_6\Task_6.csproj", "{DE330DD7-CD55-4149-B392-753AB9BA64E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{C35A5E25-A3D5-45DE-ADB3-B71273EC94C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C35A5E25-A3D5-45DE-ADB3-B71273EC94C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C35A5E25-A3D5-45DE-ADB3-B71273EC94C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE330DD7-CD55-4149-B392-753AB9BA64E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE330DD7-CD55-4149-B392-753AB9BA64E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE330DD7-CD55-4149-B392-753AB9BA64E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE330DD7-CD55-4149-B392-753AB9BA64E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -192,6 +198,7 @@ Global
 		{D8FB8A96-F785-4717-B674-511DB698EBBE} = {51588D04-9872-42E6-BEB4-8AEEB5A96798}
 		{140EA968-39C7-49E2-9F7A-78701665E7CD} = {51588D04-9872-42E6-BEB4-8AEEB5A96798}
 		{C35A5E25-A3D5-45DE-ADB3-B71273EC94C2} = {51588D04-9872-42E6-BEB4-8AEEB5A96798}
+		{DE330DD7-CD55-4149-B392-753AB9BA64E1} = {51588D04-9872-42E6-BEB4-8AEEB5A96798}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8216C72B-B412-4BBA-9633-653E9A2C6B0A}
