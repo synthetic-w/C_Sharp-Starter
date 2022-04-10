@@ -21,6 +21,6 @@ while (monthCounter > 0) {
 }
 
 Console.WriteLine($"Итоговая сумма вклада \n" +
-   $"с учётом процентов за все месяцы: {Math.Round(depositValue, 2)}");
+   $"с учётом процентов за все месяцы: {Math.Round(depositValue, 2)} рублей");
 
 Console.ReadKey();
