@@ -6,7 +6,8 @@
 String[] months = { "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" };
 
 int index = 0;
-while (index < months.Length) {
+while (index < months.Length)
+{
     Console.WriteLine(months[index]);
     index++;
 }

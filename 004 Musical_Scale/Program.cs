@@ -20,7 +20,6 @@ namespace _002_MusicalScale
             Console.Beep(220, 400);
             Console.Beep(220, 200);
             Console.Beep(220, 400);
-
         }
     }
 }

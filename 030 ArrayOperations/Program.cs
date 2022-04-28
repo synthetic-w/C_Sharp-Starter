@@ -9,7 +9,8 @@
 5. Обратитесь к пользователю и заполните новый элемент массива значением от
 пользователя.
 */
-while (true) {
+while (true)
+{
     Console.WriteLine("Введите любое целое число:");
 
     // 1. Получение числа от пользователя
@@ -21,15 +22,19 @@ while (true) {
     // 3. Заполнение массива пользователем
     Console.WriteLine($"Теперь введите {inputNumber} элементов массива:");
 
-    for (int index = 0; index < userArray.Length; index++) {
+    for (int index = 0; index < userArray.Length; index++)
+    {
         userArray[index] = Convert.ToInt32(Console.ReadLine());
     }
 
     // 4. Сортировка массива по убыванию
     int tempValue;
-    for (int first = 0; first < userArray.Length - 1; first++) {
-        for (int second = first + 1; second < userArray.Length; second++) {
-            if (userArray[first] < userArray[second]) {
+    for (int first = 0; first < userArray.Length - 1; first++)
+    {
+        for (int second = first + 1; second < userArray.Length; second++)
+        {
+            if (userArray[first] < userArray[second])
+            {
                 tempValue = userArray[first];
                 userArray[first] = userArray[second];
                 userArray[second] = tempValue;
@@ -43,7 +48,8 @@ while (true) {
     // Вывод элементов
     Console.WriteLine("Результат сортировки пользовательского массива по убыванию \n" +
                       "и увеличения массива на 1 элемент:");
-    for (int index = 0; index < userArray.Length; index++) {
+    for (int index = 0; index < userArray.Length; index++)
+    {
         Console.WriteLine(userArray[index]);
     }
 

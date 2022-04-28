@@ -16,21 +16,26 @@ namespace _026_MultipleConditions_additional_task
                 "Для нахождения периметра введите \"периметр\" ");
             string inputCommand = Console.ReadLine().ToLower(); // ToLower - конвертирует все символы в нижний регистр
 
-            switch (inputCommand) {
-                case "площадь": {
+            switch (inputCommand)
+            {
+                case "площадь":
+                    {
                         Console.WriteLine($"Площадь равна {firstSide * secondSide}");
                         break;
                     }
-                case "периметр": {
+                case "периметр":
+                    {
                         Console.WriteLine($"Периметр равен {2 * (firstSide + secondSide)}");
                         break;
                     }
-                default: {
+                default:
+                    {
                         Console.WriteLine("Неверная команда");
                     }
                     break;
             }
-            if (firstSide == secondSide) {
+            if (firstSide == secondSide)
+            {
                 Console.WriteLine("Данный прямоугольник - квадрат");
             }
             Console.ReadKey();

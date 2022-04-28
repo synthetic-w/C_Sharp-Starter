@@ -46,10 +46,12 @@ switch (operationType)
         break;
 
     case 4:
-        if (secondNumber != 0) {
+        if (secondNumber != 0)
+        {
             Console.WriteLine($"Деление: {firstNumber} / {secondNumber} = {firstNumber / secondNumber}");
         }
-        else {
+        else
+        {
             Console.WriteLine("На ноль делить нельзя!");
         }
         break;

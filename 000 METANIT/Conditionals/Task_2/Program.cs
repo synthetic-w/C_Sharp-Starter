@@ -19,10 +19,12 @@ namespace Task_2
 
             int testNumber = Convert.ToInt32(Console.ReadLine());
 
-            if ((testNumber > 5) && (testNumber < 10)) {
+            if ((testNumber > 5) && (testNumber < 10))
+            {
                 Console.WriteLine("Число больше 5 и меньше 10");
             }
-            else {
+            else
+            {
                 Console.WriteLine("Неизвестное число");
             }
             Console.ReadKey();

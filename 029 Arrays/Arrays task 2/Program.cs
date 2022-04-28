@@ -17,17 +17,21 @@ Console.WriteLine("Перечислите все месяцы по порядк�
 int index = 0;
 string inputSample;
 // Проход по месяцам
-while (index < months.Length) {
+while (index < months.Length)
+{
     inputSample = Console.ReadLine();
     // Проверка соответствия ввода с элементом массива
-    if (inputSample == months[index]) {
+    if (inputSample == months[index])
+    {
         index++;
     }
     // Остановка выполнения программы при хотя бы одном несоответствии при вводе названия пятого месяца
-    else if (index == 4 & inputSample != months[index]) {
+    else if (index == 4 & inputSample != months[index])
+    {
         break;
     }
-    else {
+    else
+    {
         Console.WriteLine("Введите месяц ещё раз");
     }
 }

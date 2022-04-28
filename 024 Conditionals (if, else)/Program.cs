@@ -11,10 +11,12 @@ namespace _022_Conditionals__if__else_
 
             int outputNumber;
             {
-                if (inputNumber > 3) {
+                if (inputNumber > 3)
+                {
                     outputNumber = inputNumber + 10;
                 }
-                else {
+                else
+                {
                     outputNumber = inputNumber * 10;
                 }
             }

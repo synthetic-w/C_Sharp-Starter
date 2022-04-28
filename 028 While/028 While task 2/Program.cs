@@ -14,23 +14,28 @@ int secondtNumber = Convert.ToInt32(Console.ReadLine());
 
 int minValue, maxValue;
 
-if (firstNumber > secondtNumber) {
+if (firstNumber > secondtNumber)
+{
     minValue = secondtNumber;
     maxValue = firstNumber;
 }
-else {
+else
+{
     minValue = firstNumber;
     maxValue = secondtNumber;
 }
 
 Console.WriteLine(new String('=', 50));
 
-while (minValue <= maxValue) {
-    if (minValue % 2 != 0) {
+while (minValue <= maxValue)
+{
+    if (minValue % 2 != 0)
+    {
         Console.WriteLine(minValue);
         minValue += 2;
     }
-    else {
+    else
+    {
         minValue++;
     }
 }

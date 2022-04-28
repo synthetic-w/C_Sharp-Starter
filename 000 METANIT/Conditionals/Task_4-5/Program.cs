@@ -24,19 +24,23 @@ namespace Task_4
         private static void Main(string[] args)
         {
             // While стоит для зацикливания для проверки
-            while (true) {
+            while (true)
+            {
                 Console.WriteLine("Введите сумму вклада:");
 
                 double depositValue = Convert.ToDouble(Console.ReadLine());
 
                 {
-                    if (depositValue < 100) {
+                    if (depositValue < 100)
+                    {
                         depositValue += depositValue * 0.05;
                     }
-                    else if (depositValue >= 100 && depositValue < 200) {
+                    else if (depositValue >= 100 && depositValue < 200)
+                    {
                         depositValue += depositValue * 0.07;
                     }
-                    else if (depositValue > 200) {
+                    else if (depositValue > 200)
+                    {
                         depositValue += depositValue * 0.1;
                     }
                 }

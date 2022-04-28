@@ -15,7 +15,8 @@ int monthCounter = Convert.ToInt32(Console.ReadLine());
 
 const decimal PCT = 0.07M;
 
-while (monthCounter > 0) {
+while (monthCounter > 0)
+{
     depositValue += depositValue * PCT;
     monthCounter--;
 }

@@ -23,13 +23,16 @@ namespace Task_1
 
             int numberTwo = Convert.ToInt32(Console.ReadLine());
 
-            if (numberOne > numberTwo) {
+            if (numberOne > numberTwo)
+            {
                 Console.WriteLine($"Первое\n{new String(' ', 4)}число\n{new String(' ', 8)}больше\n{new String(' ', 12)}второго");
             }
-            else if (numberTwo > numberOne) {
+            else if (numberTwo > numberOne)
+            {
                 Console.WriteLine($"Второе\n{new String(' ', 4)}число\n{new String(' ', 8)}больше\n{new String(' ', 12)}первого");
             }
-            else {
+            else
+            {
                 Console.WriteLine($"Оба\n{new String(' ', 4)}числа\n{new String(' ', 8)}равны");
             }
 

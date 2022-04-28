@@ -20,26 +20,32 @@ namespace _026_MultipleConditions_task_2
 
             int maxEvenNumber = default;
 
-            if (firstNumber % 2 == 0) {
+            if (firstNumber % 2 == 0)
+            {
                 maxEvenNumber = firstNumber;
             }
 
-            if ((secondNumber % 2 == 0) && (secondNumber > maxEvenNumber)) {
+            if ((secondNumber % 2 == 0) && (secondNumber > maxEvenNumber))
+            {
                 maxEvenNumber = secondNumber;
             }
 
-            if ((thirdNumber % 2 == 0) && (thirdNumber > maxEvenNumber)) {
+            if ((thirdNumber % 2 == 0) && (thirdNumber > maxEvenNumber))
+            {
                 maxEvenNumber = thirdNumber;
             }
 
-            if ((fourthNumber % 2 == 0) && (fourthNumber > maxEvenNumber)) {
+            if ((fourthNumber % 2 == 0) && (fourthNumber > maxEvenNumber))
+            {
                 maxEvenNumber = fourthNumber;
             }
 
-            if (maxEvenNumber != default) {
+            if (maxEvenNumber != default)
+            {
                 Console.WriteLine($"Максимальное чётное число: {maxEvenNumber}");
             }
-            else {
+            else
+            {
                 Console.WriteLine("Not Found");
             }
             Console.ReadKey();

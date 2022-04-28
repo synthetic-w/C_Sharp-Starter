@@ -10,7 +10,8 @@
 Console.WriteLine("1. Нажмите любую клавишу для вывода всех целых чисел от 0 до 100");
 Console.ReadKey();
 
-for (int index = 0; index <= 100; index++) {
+for (int index = 0; index <= 100; index++)
+{
     Console.WriteLine(index);
 }
 Console.ReadKey();
@@ -19,7 +20,8 @@ Console.ReadKey();
 Console.WriteLine("2. Нажмите любую клавишу для вывода всех целых чисел от 1001 до 2500 с шагом 3");
 Console.ReadKey();
 
-for (int index = 1001; index <= 2500; index += 3) {
+for (int index = 1001; index <= 2500; index += 3)
+{
     Console.WriteLine(index);
 }
 
@@ -29,7 +31,8 @@ Console.ReadKey();
 Console.WriteLine("3. Нажмите любую клавишу для вывода всех целых чисел от 100 до 0 с шагом 4");
 Console.ReadKey();
 
-for (int index = 100; index >= 0; index -= 4) {
+for (int index = 100; index >= 0; index -= 4)
+{
     Console.WriteLine(index);
 }
 
@@ -39,7 +42,8 @@ Console.ReadKey();
 Console.WriteLine("3. Нажмите любую клавишу для вывода всех чисел от 1 до 5 с шагом 0,2");
 Console.ReadKey();
 
-for (double index = 1; index <= 5; index += 0.2) {
+for (double index = 1; index <= 5; index += 0.2)
+{
     Console.WriteLine(Math.Round(index, 1));
 }
 
